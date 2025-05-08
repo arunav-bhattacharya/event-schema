@@ -12,7 +12,7 @@ Below is the schema definition for Billpay events:
 <script src="https://cdn.jsdelivr.net/npm/@json-editor/json-editor@latest/dist/jsoneditor.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  fetch('/event-schemas/v1/BillpayEvents.json')
+  fetch('/event-schema/v1/BillpayEvents.json')
     .then(response => response.json())
     .then(schema => {
       const container = document.getElementById('schema-viewer');
